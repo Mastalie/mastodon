@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ 3.3.0 ]
+    branches: [ stable-3.2 ]
   pull_request:
-    branches: [ 3.3.0 ]
+    branches: [ stable-3.2 ]
 
 jobs:
   docker-build:
