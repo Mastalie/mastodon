@@ -187,7 +187,7 @@ en:
       invite:
         comment: Comment
       invite_request:
-        text: Why do you want to join?
+        text: You might switch language to zh-cn to complete this form. Or if English is your first language, please enter what you know about SCI instance and your reason to join us.
       ip_block:
         comment: Comment
         ip: IP
