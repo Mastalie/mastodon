@@ -1,3 +1,5 @@
 default: styles/application.scss
 contrast: styles/contrast.scss
 mastodon-light: styles/mastodon-light.scss
+test: styles/test-theme.scss
+test-base: styles/test-theme-base.scss
