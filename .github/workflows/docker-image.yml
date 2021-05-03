@@ -2,9 +2,9 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ 3.3.0v2 ]
+    branches: [ dev ]
   pull_request:
-    branches: [ 3.3.0v2 ]
+    branches: [ dev ]
 
 jobs:
   docker-build:
@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: moresci/mastodon
-          tags: 3.3.0v2
+          tags: 3.3.0dev
