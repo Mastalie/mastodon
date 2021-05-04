@@ -3,9 +3,13 @@
 @import 'mastodon-light/diff';
 
 body, .landing-page, .public-layout {
-  background-image: url("../images/nichijou/nichijou_blue.jpg");
+  background-image: url("../images/nichijou/nichijou_grey.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+
+.landing__grid {
+  opacity: 0.97;
 }
